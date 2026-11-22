@@ -1,6 +1,7 @@
 /*
  * 참고:
  * https://github.com/seojun0602/melon-kakaolink
+ * Copyright (c) 2025 서준 (seojun0602), MIT License
  */
 import type { Channel, KakaoLink, MessageChat } from '@huni_ee/nazu';
 

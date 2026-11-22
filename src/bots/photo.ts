@@ -1,7 +1,3 @@
-/*
- * 참고:
- * https://github.com/dolidolih/Iris_bot
- */
 import { hasParam } from '@huni_ee/nazu';
 import type { Channel, MessageChat } from '@huni_ee/nazu';
 

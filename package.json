@@ -24,7 +24,9 @@
     "typescript-eslint": "^8.73.0"
   },
   "allowScripts": {
-    "esbuild@0.28.2": true
+    "esbuild": true,
+    "better-sqlite3": false,
+    "protobufjs": false
   },
   "scripts": {
     "start": "tsx src/index.ts",
@@ -33,7 +35,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@huni_ee/nazu": "^0.1.1",
+    "@huni_ee/nazu": "latest",
     "dotenv": "^18.0.10",
     "image-size": "^2.1.0",
     "tsx": "^4.23.15"
